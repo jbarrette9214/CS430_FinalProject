@@ -1,0 +1,34 @@
+
+ion-input {
+    width: 100%;
+    border: solid 1px black;
+    margin-bottom:5%;
+    min-height: 10%;
+}
+
+ion-label {
+    font-size: 1.5em;
+}
+
+button {
+    height:10%;
+    font-size: larger;
+    padding: 0;
+    margin-top:-20px;
+    margin-left: 10px;
+    background-color: white;
+}
+.mainContainer {
+    padding-top:25%;
+    align-content: center;
+    margin:2.5%;
+    height: 90%;
+}
+
+
+.whitebackground {
+    height: 5%;
+    background-color: green($color: #b12c2c);
+    margin-top: -20px;
+    margin-left: 10px;
+}

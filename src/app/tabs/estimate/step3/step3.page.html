@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Estimated Price</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+  <div class="main">
+    <h1> This is only an estimate, other charges and route variance may affect pricing</h1>
+
+    <h1 style="color:black; font-size:2.5em;">Estimate</h1>
+    <label class="largeLabel" id="miles" >{{miles}} </label>
+    <label class=medLabel >Miles</label>
+    <br>
+    <label class='largeLabel'>$</label>
+    <label class='largeLabel' id="cost" >{{cost}}</label>
+    <br>
+    <ion-button class="largeButton" color="success">Call</ion-button>
+    <br>
+    <ion-button (click)="goHome()">Home</ion-button>
+  </div>
+  
+</ion-content>

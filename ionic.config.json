@@ -1,0 +1,7 @@
+{
+  "name": "towing",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

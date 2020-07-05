@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Enter Locations</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="mainContainer">
+    <ion-label>From:</ion-label>
+    <button (click)="addLocation()">
+      <ion-icon name="location-outline" color="primary"></ion-icon>
+    </button>
+    <ion-input placeholder="Start location" id="fromLocation" [(ngModel)]="fromAddress"></ion-input>
+    <ion-label>To:</ion-label>
+    <ion-input placeholder="End location" id="toLocation" [(ngModel)]="toAddress"></ion-input>
+  </div>
+  <ion-button (click)="nextTab()">Get Estimate</ion-button>
+</ion-content>
